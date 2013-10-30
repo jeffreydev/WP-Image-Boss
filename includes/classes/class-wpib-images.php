@@ -23,10 +23,10 @@ class WPIB_Images {
         //include any needed scripts
         if(!is_admin()){
             wp_enqueue_script( 'jquery' );
-            //wp_enqueue_script('tb-slideshow', WPIB_BASE_URL . 'includes/js/bootstrap.js');
+            wp_enqueue_script('tb-slideshow', WPIB_BASE_URL . 'includes/js/bootstrap.js');
             wp_enqueue_script( 'jquery-mobile-swipe', WPIB_BASE_URL . 'includes/js/jquery.mobile.custom.min.js');
             
-            //wp_enqueue_style('tb-slideshow-css', WPIB_BASE_URL . 'includes/css/bootstrap.css');
+            wp_enqueue_style('tb-slideshow-css', WPIB_BASE_URL . 'includes/css/bootstrap.css');
         }
     }
 
